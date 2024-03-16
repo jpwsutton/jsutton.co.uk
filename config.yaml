@@ -1,0 +1,35 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: jsutton.co.uk
+theme: ["PaperMod"]
+params:
+  homeInfoParams:
+    Title: jsutton.co.uk
+    Content: >
+      👋 Hi There, I'm James
+  socialIcons: # optional
+    - name: "mastodon"
+      url: "https://mastodon.social/@jpwsutton"
+    - name: "github"
+      url: "https://github.com/jpwsutton/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/james-sutton-806136151/"
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: madebyrobots
+      name: Made By Robots
+      url: https://www.madebyrobots.co.uk
+      weight: 30
