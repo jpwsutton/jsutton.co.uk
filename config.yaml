@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://www.jsutton.co.uk/
 languageCode: en-us
 title: James Sutton
 theme: ["PaperMod"]
@@ -36,15 +36,15 @@ menu:
   main:
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 10
     - identifier: blog
       name: Blog
-      url: /posts/
+      url: posts/
       weight: 20
     - identifier: projects
       name: Projects
-      url: /projects/
+      url: projects/
       weight: 20
     #- identifier: madebyrobots
     #  name: Made By Robots

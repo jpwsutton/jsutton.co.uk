@@ -1,0 +1,7 @@
+#!/bin/sh
+USER=jsutton
+HOST=176.126.241.112
+DIR=/var/srv/jsutton-static/src/
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+exit 0
