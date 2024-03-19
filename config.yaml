@@ -1,12 +1,25 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: jsutton.co.uk
+title: James Sutton
 theme: ["PaperMod"]
 params:
-  homeInfoParams:
-    Title: jsutton.co.uk
-    Content: >
-      👋 Hi There, I'm James
+  #homeInfoParams:
+  #  Title: James Sutton's work
+  #  Content: >
+  #    - IBMer and Maker of things
+  profileMode:
+    enabled: true
+    title: "Hi, I'm James." # optional default will be site title
+    subtitle: "{{< particles >}} I'm a [Software Engineer at IBM Research](/about), with a love for IoT and LEDs. I occasionally post about [things I've made](/posts) or [interesting projects I've worked on](/projects)."
+    #imageUrl: "cover.jpeg" # optional
+    #imageTitle: "<title of image as alt>" # optional
+    #imageWidth: 120 # custom size
+    #imageHeight: 120 # custom size
+    #buttons:
+    #    url: "/archive"
+    ##  - name: Archive
+    #  - name: Github
+    #    url: "https://github.com/"
   socialIcons: # optional
     - name: "mastodon"
       url: "https://mastodon.social/@jpwsutton"
@@ -15,21 +28,25 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/james-sutton-806136151/"
   ShowReadingTime: true
-  ShowToc: true
-  TocOpen: true
-  ShowBreadCrumbs: true
+#  ShowToc: true
+# TocOpen: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: about
+      name: About
+      url: /about/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 20
     - identifier: madebyrobots
       name: Made By Robots
       url: https://www.madebyrobots.co.uk
-      weight: 30
+      weight: 40

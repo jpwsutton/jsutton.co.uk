@@ -1,0 +1,49 @@
+.buttons,
+.main .profile {
+    display: flex;
+    justify-content: left;
+}
+
+.main .profile {
+    align-items: end;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
+    text-align: left;
+    padding-bottom: 40%;
+}
+
+.profile .profile_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.profile_inner span a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.buttons {
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.button {
+    background: var(--tertiary);
+    border-radius: var(--radius);
+    margin: 8px;
+    padding: 6px;
+    transition: transform 0.1s;
+}
+
+.button-inner {
+    padding: 0 8px;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
