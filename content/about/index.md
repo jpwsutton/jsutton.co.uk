@@ -1,5 +1,4 @@
 ---
-date: "2022-11-24"
 draft: false
 slug: about
 title: About

@@ -27,7 +27,7 @@ params:
       url: "https://github.com/jpwsutton/"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/james-sutton-806136151/"
-  ShowReadingTime: true
+  ShowReadingTime: false
 #  ShowToc: true
 # TocOpen: true
   ShowBreadCrumbs: false

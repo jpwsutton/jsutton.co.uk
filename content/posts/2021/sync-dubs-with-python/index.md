@@ -10,6 +10,7 @@ slug: sync-dubs-with-python
 tags:
 - python
 title: Reviving an old VCD dub with python
+ShowReadingTime: true
 ---
 
 
