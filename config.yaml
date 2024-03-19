@@ -10,7 +10,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi, I'm James." # optional default will be site title
-    subtitle: "{{< particles >}} I'm a [Software Engineer at IBM Research](/about), with a love for IoT and LEDs. I occasionally post about [things I've made](/posts) or [interesting projects I've worked on](/projects)."
+    subtitle: "{{< particles >}} I'm a [Software Engineer at IBM Research](about), with a love for IoT and LEDs. I occasionally post about [things I've made](posts) or [interesting projects I've worked on](projects)."
     #imageUrl: "cover.jpeg" # optional
     #imageTitle: "<title of image as alt>" # optional
     #imageWidth: 120 # custom size
@@ -46,7 +46,7 @@ menu:
       name: Projects
       url: /projects/
       weight: 20
-    - identifier: madebyrobots
-      name: Made By Robots
-      url: https://www.madebyrobots.co.uk
-      weight: 40
+    #- identifier: madebyrobots
+    #  name: Made By Robots
+    #  url: https://www.madebyrobots.co.uk
+    #  weight: 40
